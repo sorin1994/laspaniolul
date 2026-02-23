@@ -114,10 +114,14 @@ function render(list){
   }
 
   list.forEach((p) => {
-    // IMPORTANT: indexul original -> ca sa ramana "1,2,3" corect chiar si dupa filtrare
+    // IMPORTANT: indexul original -> ca sa ramana "01,02,03" corect chiar si dupa filtrare
     const originalIndex = products.indexOf(p);
-    const imgNumber = originalIndex + 1; // 1,2,3...
-    const imgId = `pimg-${imgNumber}`;
+const imgNumber = originalIndex + 1;
+
+// padding pentru 01, 02, 03
+const padded = String(imgNumber).padStart(2, '0');
+
+const imgId = `pimg-${imgNumber}`;
 
     const card = document.createElement("div");
     card.className = "card";
@@ -149,7 +153,7 @@ function render(list){
 
     // Incarca imaginea: images/1(.jpg/.jpeg/.png/.webp)
     const imgEl = document.getElementById(imgId);
-    setSmartImage(imgEl, `images/${imgNumber}`);
+    setSmartImage(imgEl, `images/${padded}`);
   });
 }
 
