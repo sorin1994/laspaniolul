@@ -7,41 +7,41 @@ window.addEventListener("DOMContentLoaded", () => {
   // ========= PRODUSE =========
   const products = [
     // Rufe - lichid
-    { name: "ALIN DETERG,LICHID UNIVERSAL XXL100spalari/COD:897131814", category: "rufe", short: "Detergent lichid universal" , price: "38,00 Ron" },
-    { name: "ALIN DETERG.ACTIVE 3EN1 ALIN 60 LV 3L/COD:897131913", category: "rufe", short: "Detergent rufe colorate" , price: "27,50 Ron" },
-    { name: "ALIN DETERG.LICHID MARSELLA xxl 100 spalari,5l/897131784", category: "rufe", short: "Parfum exotic, rufe colorate" , price: "38,00 Ron" },
-    { name: "ALIN DETERG.MARS.ALIN 55D 4x2750.55/SPALARI ,COD:897131746", category: "rufe", short: "Pentru pete dificile, sport" , price: "23,49 Ron" },
-    { name: "ALIN DETERG.TRAD.ALIN LICHID/2x4000ML/BIPACK/COD:897132132", category: "rufe", short: "Detergent lichid de înaltă calitate pentru rufe colorate" , price: "60,00 Ron" },
-    { name: "ALIN DETERG.COCO&MELOCOTON 2x4L 80+80BIPACK/COD:897132538", category: "rufe", short: "Aduceți prospețime și un parfum intens de fructe exotice" , price: "60,00 Ron" },
+    { name: "ALIN DETERG LICHID UNIVERSAL XXL100 spalari COD:897131814", category: "rufe", short: "Detergent lichid universal" , price: "38,00 Ron" },
+    { name: "ALIN DETERG ACTIVE 3EN1 ALIN 60 LV 3L COD:897131913", category: "rufe", short: "Detergent rufe colorate" , price: "27,50 Ron" },
+    { name: "ALIN DETERG LICHID MARSELLA xxl 100 spalari 897131784", category: "rufe", short: "Parfum exotic, rufe colorate" , price: "38,00 Ron" },
+    { name: "ALIN DETERG MARS ALIN 55D 4x2750 55/SPALARI COD:897131746", category: "rufe", short: "Pentru pete dificile, sport" , price: "23,49 Ron" },
+    { name: "ALIN DETERG TRAD ALIN LICHID 2x4000ML BIPACK COD:897132132", category: "rufe", short: "Detergent lichid de înaltă calitate pentru rufe colorate" , price: "60,00 Ron" },
+    { name: "ALIN DETERG COCO&MELOCOTON 2x4L 80+80BIPACK COD:897132538", category: "rufe", short: "Aduceți prospețime și un parfum intens de fructe exotice" , price: "60,00 Ron" },
 
     // Rufe - pudra
-    { name: "DETERG,PUDRA MARSELLA-SAC:9+1KG/COD:897105655", category: "rufe", short: "FamilyPack, economic" , price: "60,00 Ron" },
-    { name: "DETERG.UNIVERSAL XXL10+1KG,119spalari/cod:897105044", category: "rufe", short: "Format mare, eficiență ridicată" , price: "65,00 Ron" },
-    { name: "DETERGENT PUDRA MARSELLA 40doze,2,28/COD:897131654", category: "rufe", short: "Marsella, curățare profundă" , price: "21,24 Ron" },
-    { name: "DETERGENT PUDRA COLONIA 40doze,2,28kg/cod:897131647", category: "rufe", short: "Colonia, prospețime" , price: "21,24 Ron" },
-    { name: "DETERGENT PUDRA UNIVERSAL(14doze),0,8g/COD:897131630", category: "rufe", short: "Universal, format mic" , price: "7,38 Ron" },
-    { name: "DETERG.PUDRA MAESELLAXXXL90doze5,130/cod:897131685", category: "rufe", short: "FamilyPack, economic" , price: "41,88 Ron" },
-    { name: "DETERG.UNIVERSAL ALIN 55D 4x2750 ML/:cod:897131722", category: "rufe", short: "îndepărta petele dificile și murdăria invizibilă" , price: "23,49 Ron" },
+    { name: "DETERG PUDRA MARSELLA-SAC:9+1KG COD:897105655", category: "rufe", short: "FamilyPack, economic" , price: "60,00 Ron" },
+    { name: "DETERG UNIVERSAL XXL 10+1KG 119 spalari COD:897105044", category: "rufe", short: "Format mare, eficiență ridicată" , price: "65,00 Ron" },
+    { name: "DETERGENT PUDRA MARSELLA 40 doze 2,28kg COD:897131654", category: "rufe", short: "Marsella, curățare profundă" , price: "21,24 Ron" },
+    { name: "DETERGENT PUDRA COLONIA 40 doze 2,28kg COD:897131647", category: "rufe", short: "Colonia, prospețime" , price: "21,24 Ron" },
+    { name: "DETERGENT PUDRA UNIVERSAL(14doze) 0,8g COD:897131630", category: "rufe", short: "Universal, format mic" , price: "7,38 Ron" },
+    { name: "DETERG PUDRA MAESELLA XXXL 90 doze 5,130 COD:897131685", category: "rufe", short: "FamilyPack, economic" , price: "41,88 Ron" },
+    { name: "DETERG UNIVERSAL ALIN 55D 4x2750 ML COD:897131722", category: "rufe", short: "îndepărta petele dificile și murdăria invizibilă" , price: "23,49 Ron" },
 
     // Balsam rufe
-    { name: "BALSAM DE RUFE ,concetratBLUE FLORAL XXL100sp-/COD:897131852", category: "rufe", short: "Parfum intens, catifelare" , price: "12,15 Ron" },
-    { name: "BALSAM DE RUFE COMPLETE BLUE 80 spalari/COD:897131869", category: "rufe", short: "Miros persistent, țesături moi" , price: "9,00 Ron" },
-    { name: "-ALIN Blue Azul Balsam de rufe (100 spălări) 2 L/COD:897131838", category: "rufe", short: "Miros persistent, țesături moi" , price: "12,15 Ron" },
+    { name: "Balsam rufe concentrat Pure Floral XXL100sp- COD:897131852", category: "rufe", short: "Parfum intens, catifelare" , price: "12,15 Ron" },
+    { name: "Balsam rufe Complete Blue 80 spălări 2L COD:897131869", category: "rufe", short: "Miros persistent, țesături moi" , price: "9,00 Ron" },
+    { name: "Balsam rufe concentrat Blue Fresh XXL 100 spălări 2L COD:897131838", category: "rufe", short: "Miros persistent, țesături moi" , price: "12,15 Ron" },
 
     // Casa / Bucatarie
-    { name: "DEGRESANT CONCENTRAT(CURATIRE GEN.) 4in /COD:897132842", category: "degresanti", short: "Curăță, degresează, dezinfectează, dezodorizează" , price: "9,94 Ron" },
-    { name: "CURATA CRISTALE pt geamuri/GLASS CLEANER/COD.897116378", category: "casa", short: "Cu alcool, uscare rapidă" , price: "8,74 Ron" },
-    { name: "DETERG,UNIVERSAL PENTRU BAIE 1,5LITRI/COD:897127626", category: "casa", short: "Curățare & igienizare" , price: "9,36 Ron" },
-    { name: "Amoniac parfumat 1.5l-/COD:897114596", category: "casa", short: "Pentru covoare, tapițerii, oglinzi etc." , price: "7,50 Ron" },
+    { name: "DEGRESANT CONCENTRAT(CURATIRE GEN.) 4in COD:897132842", category: "degresanti", short: "Curăță, degresează, dezinfectează, dezodorizează" , price: "9,94 Ron" },
+    { name: "CURATA CRISTALE pt geamuri GLASS CLEANER COD.897116378", category: "casa", short: "Cu alcool, uscare rapidă" , price: "8,74 Ron" },
+    { name: "DETERG UNIVERSAL PENTRU BAIE 1,5 LITRI COD:897127626", category: "casa", short: "Curățare & igienizare" , price: "9,36 Ron" },
+    { name: "Amoniac parfumat 1.5L COD:897114596", category: "casa", short: "Pentru covoare, tapițerii, oglinzi etc." , price: "7,50 Ron" },
 
     // Pardoseli
-    { name: "DETERGENT PODELE PIN 1,5L.COD:897120115", category: "pardoseli", short: "Parfum revigorant de pin" , price: "7,50 Ron" },
-    { name: "DETERG.PODELE FLORAL,1,5LCOD:897121273", category: "pardoseli", short: "Parfum floral elegant" , price: "7,50 Ron" },
-    { name: "DETERGENT PODEA MARINE(parfum ocean)/cod:897116491", category: "pardoseli", short: "Parfum oceanic puternic" , price: "7,50 Ron" },
+    { name: "DETERGENT PODELE PIN 1,5L COD:897120115", category: "pardoseli", short: "Parfum revigorant de pin" , price: "7,50 Ron" },
+    { name: "DETERG PODELE FLORAL 1,5L COD:897121273", category: "pardoseli", short: "Parfum floral elegant" , price: "7,50 Ron" },
+    { name: "DETERGENT PODEA MARINE(parfum ocean) cod:897116491", category: "pardoseli", short: "Parfum oceanic puternic" , price: "7,50 Ron" },
 
     // Vase
-    { name: "DETERGENT VASE ,ORIGINAL MAXI PAK/COD:897131821", category: "vase", short: "Degresare intensivă" , price: "8.66 Ron" },
-    { name: "DETERGENT VASE ,ORIGINAL MAXI PAK/COD:897112158", category: "vase", short: "Format mare, uz zilnic" , price: "6,35 Ron" },
+    { name: "DETERGENT VASE ORIGINAL MAXI PAK COD:897131821", category: "vase", short: "Degresare intensivă" , price: "8.66 Ron" },
+    { name: "DETERGENT VASE ORIGINAL MAXI PAK COD:897112158", category: "vase", short: "Format mare, uz zilnic" , price: "6,35 Ron" },
 
     // Inalbitori (Lejie)
     { name: "Lejia cu Detergent 2L înălbitor cu detergent COD:897111458", category: "casa", short: "Igienizare & curățare activă" , price: "11,18 Ron" },
@@ -53,7 +53,7 @@ window.addEventListener("DOMContentLoaded", () => {
     { name: "Gel de duș Migdale & Miere 0.75L COD:897111809", category: "igiena", short: "Nutriție pentru piele uscată" , price: "7,64 Ron" },
     { name: "Gel de duș Ovăz 0.75L COD:897127732", category: "igiena", short: "Pentru piele sensibilă" , price: "7,64 Ron" },
     { name: "Gel de duș Argan 0.75L COD:897127749", category: "igiena", short: "Aromă tropicală intensă" , price: "7,64 Ron" },
-    { name: "Gel de duș Herbal 0.75LCOD:897127725", category: "igiena", short: "Prospețime naturală" , price: "7,64 Ron" },
+    { name: "Gel de duș Herbal 0.75L COD:897127725", category: "igiena", short: "Prospețime naturală" , price: "7,64 Ron" },
 { name: "Săpun lichid și gel de duș 0.75L COD:897127718", category: "igiena", short: "Prospețime naturală" , price: "7,64 Ron" },  
 ];
 
